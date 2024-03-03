@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <div className={styles.footer}>
-        <p>Made by Besir GULBAHAR</p>
+        <Link href='https://www.linkedin.com/in/be%C5%9Fir-g%C3%BClbahar/'><p>Made by Besir Gulbahar</p></Link>
     </div>
   )
 }
